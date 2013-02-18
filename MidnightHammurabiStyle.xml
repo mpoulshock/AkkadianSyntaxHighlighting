@@ -1,0 +1,111 @@
+﻿<EditorStyle name="MidnightHammurabi" _description="Romance alone">
+  <Style name="text" color="#FFFFFF" bgColor="#002936" />
+  <Style name="text.background.readonly" color="#073642" />
+  <Style name="linenumber" color="#657B83" bgColor="#073642" />
+  <Style name="linenumber.highlight" color="#586E75" />
+  <Style name="iconbar" color="#073642" />
+  <Style name="iconbar.separator" color="#073642" />
+  <Style name="fold" color="#586E75" bgColor="#073642" />
+  <Style name="fold.highlight" color="#EEE8D5" />
+  <Style name="fold.togglemarker" color="#EEE8D5" />
+  <Style name="marker.line.dirty" color="#B58900" />
+  <Style name="marker.line.changed" color="#859900" />
+  <Style name="text.selection" color="#EEE8D5" bgColor="#839496" />
+  <Style name="text.selection.inactive" color="#FDF6E3" bgColor="#93A1A1" />
+  <Style name="marker.line" color="#073642" />
+  <Style name="marker.ruler" color="#93A1A1" />
+  <Style name="marker.whitespace" color="#586E75" />
+  <Style name="marker.invalidline" color="#CB4B16" />
+  <Style name="marker.breakpoint" color="#FFFFFF" bgColor="#7D0000" />
+  <Style name="marker.breakpoint.color1" color="#FFFFFF" />
+  <Style name="marker.breakpoint.color2" color="#7D0000" />
+  <Style name="marker.breakpoint.disabled.background" color="#EDDCDC" />
+  <Style name="marker.debug.currentline" color="#000000" bgColor="#FEFF00" />
+  <Style name="marker.debug.currentline.color1" color="#FEFF00" />
+  <Style name="marker.debug.currentline.color2" color="#FEFECC" />
+  <Style name="marker.debug.currentline.border" color="#656600" />
+  <Style name="marker.debug.stackline" color="#000000" bgColor="#80FF80" />
+  <Style name="marker.debug.stackline.color1" color="#80FF80" />
+  <Style name="marker.debug.stackline.color2" color="#CCFECC" />
+  <Style name="marker.debug.stackline.border" color="#336633" />
+  <Style name="marker.breakpoint.invalid.background" color="#EDDCDC" />
+  <Style name="marker.breakpoint.invalid.color1" color="#EDDCDC" />
+  <Style name="marker.breakpoint.invalid.border" color="#7D0000" />
+  <Style name="text.background.searchresult" color="#002B36" />
+  <Style name="text.background.searchresult-main" color="#002B36" />
+  <Style name="marker.bracket" color="#CB4B16" bgColor="#073642" />
+  <Style name="marker.usages" color="#CB4B16" bgColor="#073642" />
+  <Style name="marker.bookmark.color1" color="#FDF6E3" />
+  <Style name="marker.bookmark.color2" color="#268BD2" />
+  <Style name="marker.underline.error" color="#DC322F" />
+  <Style name="marker.underline.warning" color="#CB4B16" />
+  <Style name="marker.underline.suggestion" color="#8FC68F" />
+  <Style name="marker.underline.hint" color="#8F8FC6" />
+  <Style name="diff.line-added" color="#0000FF" />
+  <Style name="diff.line-removed" color="#FF0000" />
+  <Style name="diff.line-changed" color="#00FF00" />
+  <Style name="diff.header" color="#FF00FE" />
+  <Style name="diff.header-seperator" color="#FF00FE" />
+  <Style name="diff.header-oldfile" color="#FF0000" />
+  <Style name="diff.header-newfile" color="#0000FF" />
+  <Style name="diff.location" color="#FF00FE" />
+  <Style name="marker.template.primary_template" color="#B4E3B4" bgColor="#B4E3B4" />
+  <Style name="marker.template.primary_highlighted_template" color="#000000" bgColor="#B4E3B4" />
+  <Style name="marker.template.secondary_template" color="#FFFFFF" bgColor="#FFFFFF" />
+  <Style name="marker.template.secondary_highlighted_template" color="#7F7F7F" bgColor="#FFFFFF" />
+  <Style name="bubble.warning" color="#B58900" bgColor="#002B36" />
+  <Style name="bubble.warning.text" color="#000000" />
+  <Style name="bubble.error" color="#DC322F" bgColor="#002B36" />
+  <Style name="bubble.error.text" color="#000000" />
+  <Style name="template" color="#000000" bgColor="#FDFAED" />
+  <Style name="template.tag" color="#000000" bgColor="#FDF0BD" />
+  <Style name="template.directive" color="#2AA198" />
+  <Style name="text.background" color="#002B36" />
+  <Style name="text.link" color="#657B83" />
+  <Style name="text.punctuation" color="#657B83" />
+  <Style name="text.preprocessor" color="#DC322F" />
+  <Style name="text.preprocessor.keyword" color="#DC322F" weight="Bold" />
+  <Style name="text.markup" color="#268BD2" />
+  <Style name="marker.whitespace.eol" color="#586E75" />
+  <Style name="marker.underline" color="#DC322F" />
+  <Style name="comment" color="#44B6C2" />
+  <Style name="comment.keyword" color="#D33682" />
+  <Style name="constant" color="#2AA198" />
+  <Style name="constant.language.void" color="#2AA198" />
+  <Style name="string" color="#DDE817" />
+  <Style name="keyword" color="#859900" />
+  <Style name="keyword.namespace" color="#B58900" />
+  <Style name="keyword.type" color="#B58900" />
+  <Style name="keyword.modifier" color="#B58900" />
+  <Style name="keyword.declaration" color="#888888" />
+  <Style name="keyword.access" color="#B58900" />
+  <Style name="keyword.semantic.type" color="#268BD2" />
+  <Style name="keyword.semantic.field" color="#6C71C4" />
+  <Style name="keyword.semantic.property" color="#6C71C4" />
+  <Style name="keyword.semantic.error" color="#DC322F" />
+  <Style name="marker.breakpoint.invalid" color="#FFFFFF" bgColor="#7D0000" />
+  <Style name="text.markup.tag" color="#268BD2" />
+  <Style name="comment.line" color="#44B6C2" />
+  <Style name="comment.block" color="#FFBD25" />
+  <Style name="comment.doc" color="#839496" />
+  <Style name="comment.tag" color="#839496" />
+  <Style name="comment.tag.line" color="#839496" />
+  <Style name="comment.tag.block" color="#839496" />
+  <Style name="comment.tag.doc" color="#839496" />
+  <Style name="comment.keyword.todo" color="#D33682" />
+  <Style name="constant.digit" color="#2AA198" />
+  <Style name="constant.language" color="#2AA198" />
+  <Style name="string.single" color="#DDE817" />
+  <Style name="string.double" color="#DDE817" />
+  <Style name="string.other" color="#DDE817" />
+  <Style name="keyword.operator" color="#000BF4" />
+  <Style name="keyword.operator.declaration" color="#859900" />
+  <Style name="keyword.selection" color="#859900" />
+  <Style name="keyword.iteration" color="#859900" />
+  <Style name="keyword.jump" color="#859900" />
+  <Style name="keyword.context" color="#859900" />
+  <Style name="keyword.exceptions" color="#859900" />
+  <Style name="keyword.property" color="#859900" />
+  <Style name="keyword.parameter" color="#859900" />
+  <Style name="keyword.misc" color="#859900" />
+</EditorStyle>

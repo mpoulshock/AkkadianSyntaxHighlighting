@@ -9,11 +9,18 @@ How I made the Akkadian syntax highlighting addin:
 7. In MonoDevelop’s add-in manager, installed the .mpak file.
 
 
-Troubleshooting:
+Notes:
 
-* If the addin doesn’t seem to function properly (such as by not recognizing .akk files), try uninstalling and reinstalling it via MonoDevelop's add-in manager.  Also try enabling/disabling it.
+* If the addin doesn’t seem to function properly (such as by not recognizing .akk files), try uninstalling and reinstalling it via MonoDevelop's add-in manager.  Also try enabling/disabling the addin.  Also try closing and reopening MonoDevelop.
+* MonoDevelop custom highlighting schemes (such as MidnightHammurabiStyle.xml) are stored here: C:\Users\<user>\AppData\Roaming\MonoDevelop-3.0\HighlightingSchemes
 
 
 References:
 
 * http://monodevelop.com/developers/articles/syntax_mode_definition
+
+
+TODO:
+
+* Block comments
+* Tvar?, Stub(), temporal:, set:

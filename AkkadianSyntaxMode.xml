@@ -32,6 +32,11 @@
 		<Word>Tdate</Word>
 		<Word>Tstr</Word>
 		<Word>TboolSym</Word>
+		<Word>DateTime</Word>
+		<Word>bool</Word>
+		<Word>int</Word>
+		<Word>Thing</Word>
+		<Word>Things</Word>
 	</Keywords>
 
 	<Keywords color = "keyword.selection">
@@ -39,11 +44,6 @@
 	</Keywords>
 
 	<Keywords color = "keyword.iteration">
-		<Word>DateTime</Word>
-		<Word>bool</Word>
-		<Word>int</Word>
-		<Word>Thing</Word>
-		<Word>Things</Word>
 	</Keywords>
 
 	<Keywords color = "keyword.jump">
