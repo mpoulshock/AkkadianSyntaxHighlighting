@@ -1,0 +1,84 @@
+<SyntaxMode name = "Akkadian" mimeTypes="text/x-akk">
+
+	<Property name="LineComment">#</Property>
+	<Property name="BlockCommentStart">##</Property>
+	<Property name="BlockCommentEnd">##</Property>
+	<Property name="StringQuote">"</Property>
+	<Property name="StringQuote">'</Property>
+
+	<EolSpan color = "comment" rule="Comment">#</EolSpan>
+
+	<Span color = "comment" rule="Comment" tagColor="comment.tag">
+		<Begin>##</Begin>
+		<End>##</End>
+	</Span>
+
+	<Span color = "string" rule="String" stopateol = "true" escape='\'>
+		<Begin>"</Begin>
+		<End>"</End>
+	</Span>
+
+	<Span color = "string" rule="String" stopateol = "true" escape='\'>
+		<Begin>&apos;</Begin>
+		<End>&apos;</End>
+	</Span>
+
+	<Match color = "string">CSharpNumber</Match>
+
+	<Keywords color = "keyword.declaration">
+		<Word>Tbool</Word>
+		<Word>Tnum</Word>
+		<Word>Tset</Word>
+		<Word>Tdate</Word>
+		<Word>Tstr</Word>
+		<Word>TboolSym</Word>
+	</Keywords>
+
+	<Keywords color = "keyword.selection">
+		<Word>Stub</Word>
+	</Keywords>
+
+	<Keywords color = "keyword.iteration">
+		<Word>DateTime</Word>
+		<Word>bool</Word>
+		<Word>int</Word>
+		<Word>Thing</Word>
+		<Word>Things</Word>
+	</Keywords>
+
+	<Keywords color = "keyword.jump">
+		<Word>Test</Word>
+	</Keywords>
+
+	<Keywords color = "keyword.operator">
+		<Word>if</Word>
+		<Word>then</Word>
+		<Word>else</Word>
+		<Word>match</Word>
+		<Word>set</Word>
+		<Word>null</Word>
+		<Word>true</Word>
+		<Word>false</Word>
+		<Word>from</Word>
+		<Word>temporal</Word>
+		<Word>endtemporal</Word>
+		<Word>assumes</Word>
+	</Keywords>
+
+	<Keywords color = "keyword.modifier">
+	</Keywords>
+
+	<Keywords color = "keyword.type">
+	</Keywords>
+
+	<Keywords color = "keyword.misc">
+	</Keywords>
+
+	<Rule name = "Comment">
+		<Keywords color="comment.keyword.todo" ignorecase="True">
+			<Word>TODO</Word>
+		</Keywords>	
+	</Rule>
+	<Rule name = "String">
+	</Rule>
+</SyntaxMode>

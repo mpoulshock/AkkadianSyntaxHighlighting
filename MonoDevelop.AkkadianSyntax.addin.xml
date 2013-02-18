@@ -1,0 +1,32 @@
+<Addin
+	id = "AkkadianBinding"
+	namespace = "MonoDevelop"
+	name = "Akkadian Language Binding"
+	author = "Michael Poulshock"
+	copyright = "Hammurabi LLC"
+	url = "http://www.hammura.bi"
+	description = "Akkadian language binding"
+	category = "Language bindings"
+	version = "0.1">
+
+    <Runtime>
+		<Import file="AkkadianSyntaxMode.xml"/>	
+	</Runtime>
+	
+	<Dependencies>
+		<Addin id="Core" version="3.0"/>
+		<Addin id="Ide" version="3.0"/>
+		<Addin id="SourceEditor2" version="3.0"/>
+	</Dependencies>	
+
+	<Extension path="/MonoDevelop/Core/MimeTypes">
+		<MimeType id="text/x-akk" _description="Akkadian Source File" isText="true">
+			<File pattern = "*.akk" />
+		</MimeType>
+	</Extension>
+
+	<Extension path = "/MonoDevelop/SourceEditor2/SyntaxModes">
+		<Templates file="AkkadianSyntaxMode.xml" />
+	</Extension>
+
+</Addin>
