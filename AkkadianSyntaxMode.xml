@@ -23,7 +23,7 @@
 		<End>&apos;</End>
 	</Span>
 
-	<Match color = "string">CSharpNumber</Match>
+	<!-- <Match color = "string">CSharpNumber</Match> -->
 
 	<Keywords color = "keyword.declaration">
 		<Word>Tbool</Word>
@@ -59,9 +59,7 @@
 		<Word>null</Word>
 		<Word>true</Word>
 		<Word>false</Word>
-		<Word>from</Word>
-		<Word>temporal</Word>
-		<Word>endtemporal</Word>
+		<Word>after</Word>
 		<Word>assumes</Word>
 	</Keywords>
 
