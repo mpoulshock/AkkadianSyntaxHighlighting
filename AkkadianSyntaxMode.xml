@@ -1,31 +1,30 @@
 <SyntaxMode name = "Akkadian" mimeTypes="text/x-akk">
 
-	<Property name="LineComment">#</Property>
-	<Property name="BlockCommentStart">##</Property>
-	<Property name="BlockCommentEnd">##</Property>
-	<Property name="StringQuote">"</Property>
-	<Property name="StringQuote">'</Property>
+	<!-- COMMENTS -->
 
-	<EolSpan color = "comment" rule="Comment">#</EolSpan>
-
-	<Span color = "comment" rule="Comment" tagColor="comment.tag">
+	<Span color = "Comment(Block)" rule="Comment" >
 		<Begin>##</Begin>
 		<End>##</End>
 	</Span>
+	
+	<EolSpan color = "Comment(Line)" rule="Comment">#</EolSpan>
+	
+	<Rule name = "Comment">
+	</Rule>
 
-	<Span color = "string" rule="String" stopateol = "true" escape='\'>
+	<!-- STRINGS -->
+
+	<Span color = "String" rule="String" stopateol = "true" escape='\'>
 		<Begin>"</Begin>
 		<End>"</End>
 	</Span>
-
-	<Span color = "string" rule="String" stopateol = "true" escape='\'>
-		<Begin>&apos;</Begin>
-		<End>&apos;</End>
-	</Span>
-
-	<!-- <Match color = "string">CSharpNumber</Match> -->
-
-	<Keywords color = "keyword.declaration">
+	
+	<Rule name = "String">
+	</Rule>
+	
+	<!-- KEYWORDS -->
+	
+	<Keywords color = "Keyword(Declaration)">
 		<Word>Tbool</Word>
 		<Word>Tnum</Word>
 		<Word>Tset</Word>
@@ -39,18 +38,15 @@
 		<Word>Things</Word>
 	</Keywords>
 
-	<Keywords color = "keyword.selection">
-		<Word>Stub</Word>
-	</Keywords>
-
-	<Keywords color = "keyword.iteration">
-	</Keywords>
-
-	<Keywords color = "keyword.jump">
+	<Keywords color = "Keyword(Jump)">
 		<Word>Test</Word>
 	</Keywords>
 
-	<Keywords color = "keyword.operator">
+	<Keywords color = "Keyword(Selection)">
+		<Word>Stub</Word>
+	</Keywords>
+	
+	<Keywords color = "Keyword(Operator)">
 		<Word>if</Word>
 		<Word>then</Word>
 		<Word>else</Word>
@@ -62,21 +58,5 @@
 		<Word>from</Word>
 		<Word>assumes</Word>
 	</Keywords>
-
-	<Keywords color = "keyword.modifier">
-	</Keywords>
-
-	<Keywords color = "keyword.type">
-	</Keywords>
-
-	<Keywords color = "keyword.misc">
-	</Keywords>
-
-	<Rule name = "Comment">
-		<Keywords color="comment.keyword.todo" ignorecase="True">
-			<Word>TODO</Word>
-		</Keywords>	
-	</Rule>
-	<Rule name = "String">
-	</Rule>
+	
 </SyntaxMode>

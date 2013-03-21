@@ -7,7 +7,7 @@
 	url = "http://www.hammura.bi"
 	description = "Akkadian language binding"
 	category = "Language bindings"
-	version = "0.1">
+	version = "0.2">
 
     <Runtime>
 		<Import file="AkkadianSyntaxMode.xml"/>	

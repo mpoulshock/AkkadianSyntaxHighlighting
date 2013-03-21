@@ -1,0 +1,26 @@
+{
+	"name":"MidnightHammurabi",
+	"version":"1.0",
+	"description":"Romance alone",
+	"originator":"Xamarin Inc. (http://xamarin.com)",
+	"baseScheme":"Solarized Dark",
+	"colors":[
+	],
+	"text":[
+		{"name": "Plain Text", "fore":"#FFFFFF", "back":"#002936", "weight":"0" },
+		{"name": "Selected Text", "fore":"#FFFFFF", "back":"#305661", "weight":"0" },
+		{"name": "Selected Text(Inactive)", "fore":"#FFFFFF", "back":"#305661", "weight":"0" },
+		{"name": "Collapsed Text", "fore":"#FFFFFF", "back":"#002936", "weight":"0" },
+		{"name": "Comment(Line)", "fore":"#42B3C1", "weight":"0" },
+		{"name": "Comment(Block)", "fore":"#42B3C1" },
+		{"name": "Comment(Doc)", "fore":"#42B3C1" },
+		{"name": "Comment(DocTag)", "fore":"#42B3C1" },
+		{"name": "Comment Tag", "fore":"#41B2C1", "weight":"0", "style":"Italic" },
+		{"name": "Excluded Code", "fore":"#FFFFFF", "weight":"0" },
+		{"name": "String", "fore":"#DCE817", "weight":"0" },
+		{"name": "Keyword(Operator)", "fore":"#0008F4", "weight":"0" },
+		{"name": "Keyword(Declaration)", "fore":"#888888", "weight":"0" },
+		{"name": "Syntax Error", "fore":"#FFFFFF", "weight":"0" },
+		{"name": "Diff Header(Separator)", "fore":"#FF00FD", "weight":"Bold" }
+	]
+}
